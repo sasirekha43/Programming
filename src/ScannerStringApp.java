@@ -6,5 +6,5 @@ public class ScannerStringApp {
         String ch = sc.next();
         System.out.println("the give string value="+ch);
     }
-    
+
 }
