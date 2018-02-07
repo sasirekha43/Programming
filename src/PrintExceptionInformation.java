@@ -3,6 +3,7 @@ public class PrintExceptionInformation {
         try{
             System.out.println(10/0);
         }
+
         catch (ArithmeticException e){
             e.printStackTrace();
             System.out.println(e.toString());
