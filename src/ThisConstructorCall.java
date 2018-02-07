@@ -9,9 +9,10 @@ class Student5{
     }
     Student5(int rollno, String name, String course, float fee){
         //other wise it will get the compile time error.
-        this(rollno,name,course);//reusing constructor and need to must be in first statement.
+        //call to this must be first statement in constructor.
+        // this(rollno,name,course);reusing constructor and need to must be in first statement.
+        this(rollno,name,course);
         this.fee = fee;
-
     }
     void display(){
         System.out.println(rollno+ " " +name+" "+course+" "+fee);
